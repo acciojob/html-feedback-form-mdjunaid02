@@ -10,50 +10,10 @@
 	<h1>Feedback Form</h1>
 	<h2>Input Elements</h2>
 	<form>
-		<table border="1">
-			<thead>
-				<tr>
-					<th>Element</th>
-					<th>ID</th>
-					<th>Type</th>
-					<th>Attributes</th>
-					<th>Label Required</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><input type="text" placeholder="Name" required></td>
-					<td><input type="text" placeholder="name" required></td>
-					<td><input type="text" placeholder="Text" required></td>
-					<td><input type="text" placeholder="minlength='3', maxlength='50',required" required></td>
-					<td>Yes</td>
-				</tr>
-
-				<tr>
-					<td><input type="text" placeholder="Portfolio" required></td>
-					<td><input type="text" placeholder="portfolio" required></td>
-					<td><input type="url" placeholder="URL" required></td>
-					<td><input type="text" placeholder="required" required></td>
-					<td>Yes</td>
-				</tr>
-
-				<tr>
-					<td><input type="text" placeholder="Favourite Color" required></td>
-					<td><input type="text" placeholder="favColor" required></td>
-					<td><input type="text" placeholder="Color" required></td>
-					<td><input type="text" placeholder="N/A" required></td>
-					<td>Yes</td>
-				</tr>
-
-				<tr>
-					<td><input type="text" placeholder="Likeness" required></td>
-					<td><input type="text" placeholder="likeness" required></td>
-					<td><input type="text" placeholder="Range" required></td>
-					<td><input type="text" placeholder="min='1',max='100'" required></td>
-					<td>Yes</td>
-				</tr>
-			</tbody>
-		</table>
+		<input id="name" type="text" minlength="3" maxlength="50" required>
+		<input id="portfolio" type="url" required>
+		<input id="color" type="color" required>
+		<input id="likeness" type="range" minlength="1" maxlength="100" required>
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
